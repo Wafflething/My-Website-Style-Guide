@@ -9,6 +9,7 @@ html {
 }
 
 h2 {
+ text-align: left;
 }
 
 ul.Colors ul li {
@@ -17,23 +18,21 @@ ul.Colors ul li {
 
 li.Navy {
     padding: 10px;
-    box-align: left;
  }
 
  li.Gold {
     padding: 10px;
-    box-align: center;
  }
 
  li.Red {
     padding: 10px;
-    box-align: right;
  }
 
 /* Typography */
 
 h2 {
-    font-family: font-family: 'Splash', cursive; }
+    font-family: font-family: 'Splash', cursive;
+}
 
 /* Graphics & Colors */
 
