@@ -3,8 +3,19 @@ html {
 
 }
 /* Spacings */
-li {
+li .Navy {
     padding: 10px;
+    box-align: left;
+ }
+
+ li .Gold {
+    padding: 10px;
+    box-align: center;
+ }
+
+ li .Red {
+    padding: 10px;
+    box-align: right;
  }
 
 /* Typography */
@@ -13,4 +24,25 @@ li {
 
 li .Navy {
    color: rgb(0, 0, 128); 
+   content: "rgb(0 ,0, 128)";
 }
+
+li .Gold {
+    color: rgb(255, 215, 0); 
+    content: "rgb(0 ,0, 128)";
+ }
+
+ li .Red {
+    color: rgb(255, 0, 0); 
+    content: "rgb(0 ,0, 128)";
+ }
+
+ li .Blue {
+    color: rgb(0, 0, 255); 
+    content: "rgb(0 ,0, 128)";
+ }
+
+ li .Ivory {
+    color: rgb(255, 255, 240); 
+    content: "rgb(0 ,0, 128)";
+ }
