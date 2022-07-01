@@ -30,7 +30,7 @@ li.Navy {
 /* Typography */
 
 h1 {
-    
+
 }
 
 h2 {
@@ -48,7 +48,7 @@ li.Gold {
     content: "rgb(0 ,0, 128)";
  }
 
- ul, li .Red {
+ li.Red {
     color: rgb(255, 0, 0); 
     content: "rgb(0 ,0, 128)";
  }
