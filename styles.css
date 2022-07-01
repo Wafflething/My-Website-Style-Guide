@@ -3,6 +3,15 @@ html {
 
 }
 /* Spacings */
+
+.Colors {
+    text-align: center;
+}
+
+ul.Colors ul li {
+    display: inline;
+}
+
 li.Navy {
     padding: 10px;
     box-align: left;
