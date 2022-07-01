@@ -32,7 +32,7 @@ li.Gold {
     content: "rgb(0 ,0, 128)";
  }
 
- li.Red {
+ ul, li .Red {
     color: rgb(255, 0, 0); 
     content: "rgb(0 ,0, 128)";
  }
