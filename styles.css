@@ -2,10 +2,14 @@
 html {
 
 }
+/* Spacings */
+li {
+    padding: 10px;
+ }
 
 /* Typography */
 
-/* Colors */
+/* Graphics & Colors */
 
 li .Navy {
    color: rgb(0, 0, 128); 
