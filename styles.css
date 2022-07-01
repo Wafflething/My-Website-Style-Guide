@@ -8,8 +8,11 @@ html {
     text-align: center;
 }
 
+h2 {
+}
+
 ul.Colors ul li {
-    display: inline;
+    display: inline-block;
 }
 
 li.Navy {
@@ -29,36 +32,30 @@ li.Navy {
 
 /* Typography */
 
-h1 {
-
-}
-
 h2 {
-    font-family:'Splash', cursive;
-}
+    font-family: font-family: 'Splash', cursive; }
 
 /* Graphics & Colors */
 
 li.Navy {
-   background-color: rgb(0, 0, 128); 
+   background-color: rgb(0, 0, 128);
+   color: white;
+    
 }
 
 li.Gold {
-    color: rgb(255, 215, 0); 
-    content: "rgb(0 ,0, 128)";
+    background-color: rgb(255, 215, 0);
  }
 
  li.Red {
-    color: rgb(255, 0, 0); 
-    content: "rgb(0 ,0, 128)";
+    background-color: rgb(255, 0, 0); 
  }
 
  li.Blue {
-    color: rgb(0, 0, 255); 
-    content: "rgb(0 ,0, 128)";
+    background-color: rgb(0, 0, 255); 
+    color: white;
  }
 
  li.Ivory {
-    color: rgb(255, 255, 240); 
-    content: "rgb(0 ,0, 128)";
+    background-color: rgb(255, 255, 240); 
  }
