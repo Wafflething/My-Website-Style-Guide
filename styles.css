@@ -1,26 +1,21 @@
 /* Spacings */
-
-.Colors {
-    text-align: center;
-}
-
 h2 {
  text-align: left;
 }
 
-ul.Colors ul li {
+.Colors {
     display: inline-block;
 }
 
-li.Navy {
+.Navy {
     padding: 10px;
  }
 
- li.Gold {
+ .Gold {
     padding: 10px;
  }
 
- li.Red {
+ .Red {
     padding: 10px;
  }
 
@@ -32,25 +27,25 @@ h2 {
 
 /* Graphics & Colors */
 
-li.Navy {
+.Navy {
    background-color: rgb(0, 0, 128);
    color: white;
     
 }
 
-li.Gold {
+.Gold {
     background-color: rgb(255, 215, 0);
  }
 
- li.Red {
+ .Red {
     background-color: rgb(255, 0, 0); 
  }
 
- li.Blue {
+ .Blue {
     background-color: rgb(0, 0, 255); 
     color: white;
  }
 
- li.Ivory {
+ .Ivory {
     background-color: rgb(255, 255, 240); 
  }
