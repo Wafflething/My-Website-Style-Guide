@@ -32,8 +32,7 @@ li.Navy {
 /* Graphics & Colors */
 
 li.Navy {
-   color: rgb(0, 0, 128); 
-   content: "rgb(0 ,0, 128)";
+   background-color: rgb(0, 0, 128); 
 }
 
 li.Gold {
