@@ -1,47 +1,60 @@
 /* Spacings */
 h2 {
- text-align: left;
-}
-
-.Colors {
-    display: inline-block;
-}
-
-.Navy {
-    padding: 10px;
- }
-
- .Gold {
-    padding: 10px;
- }
-
- .Red {
-    padding: 10px;
- }
-
-/* Typography */
-
-/* Graphics & Colors */
-
-.Navy {
-   background-color: rgb(0, 0, 128);
-   color: white;
-    
-}
-
-.Gold {
-    background-color: rgb(255, 215, 0);
- }
-
- .Red {
-    background-color: rgb(255, 0, 0); 
- }
-
- .Blue {
-    background-color: rgb(0, 0, 255); 
-    color: white;
- }
-
- .Ivory {
-    background-color: rgb(255, 255, 240); 
- }
+   text-align: left;
+  }
+  
+  .Colors {
+      display: inline-block;
+  }
+  
+  .Navy {
+      padding: 10px;
+   }
+  
+   .Gold {
+      padding: 10px;
+   }
+  
+   .Red {
+      padding: 10px;
+   }
+  
+   .Colors {
+     border: solid medium black;
+   }
+  
+    .Fonts {
+     border: solid medium black;
+   }
+  
+    .TextStyles {
+     border: solid medium black;
+   }
+  
+  
+  /* Typography */
+  
+  /* Graphics & Colors */
+  
+  .Navy {
+     background-color: rgb(0, 0, 128);
+     color: white;
+      
+  }
+  
+  .Gold {
+      background-color: rgb(255, 215, 0);
+   }
+  
+   .Red {
+      background-color: rgb(255, 0, 0); 
+   }
+  
+   .Blue {
+      background-color: rgb(0, 0, 255); 
+      color: white;
+   }
+  
+   .Ivory {
+      background-color: rgb(255, 255, 240); 
+   }
