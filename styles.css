@@ -1,42 +1,67 @@
 /* Spacings */
-h2 {
-   text-align: left;
-  }
-  
-  .Colors {
-      display: inline-block;
-  }
-  
-  .Navy {
+   h2 {
+      text-align: left;
+      }
+
+   .Container {
+      border: solid medium black;
+      margin: 10px auto;
       padding: 10px;
-   }
+      display: block;  
+      }
+
+   .Color Container {
+      width: 100%;
+      display: block;
+      }
+
+   .Navy {
+      display: inline-block;
+      width: 32%;
+      text-align: center;
+      margin: 20px auto;
+      min-height: 100px;
+      }
   
    .Gold {
-      padding: 10px;
-   }
+      padding: 10px 40px;
+      margin: 20px;
+      display: block;
+      text-align: center;
+      }
   
    .Red {
-      padding: 10px;
-   }
+      padding: 10px 40px;
+      margin: 20px;
+      display: block;
+      text-align: center;
+      }
+
+   .Blue {
+      padding: 10px 40px;
+      margin: 20px;
+      display: block;
+      text-align: center;
+      }
+
+   .Ivory {
+      padding: 10px 40px;
+      margin: 20px;
+      display: block;
+      text-align: center;
+      }
+
+   .Font Container {
+      width: 100%;
+      display: block;
+      }
+
+   .Text Styles Container {
+      width: 100%;
+      display: block;
+      }
   
-   .Colors {
-     border: solid medium black;
-   }
-  
-    .Fonts {
-     border: solid medium black;
-   }
-  
-    .TextStyles {
-     border: solid medium black;
-   }
-  
-  
-  /* Typography 
-  font-family: 'Oswald', sans-serif;
-font-family: 'Roboto Mono', monospace;
-font-family: 'Splash', cursive;
-*/
+  /* Typography */
 
   .RobotoMono {
    font-family: 'Roboto Mono', monospace;
@@ -73,7 +98,7 @@ font-family: 'Splash', cursive;
   .Oswald .Italic {
    font-style: italic;
   }
-  
+
   .Font Title {
    text-decoration: underline;
   }
