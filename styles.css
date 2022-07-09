@@ -1,4 +1,12 @@
 /* Spacings */
+html {
+   display: block;
+}
+
+body {
+   display: block;
+   margin: 30px;
+}
    h2 {
       text-align: left;
       }
@@ -10,9 +18,8 @@
       display: block;  
       }
 
-   .Color Container {
+   .Color-Container {
       width: 100%;
-      display: block;
       }
 
    .Navy {
@@ -24,41 +31,54 @@
       }
   
    .Gold {
-      padding: 10px 40px;
-      margin: 20px;
-      display: block;
+      display: inline-block;
+      width: 32%;
       text-align: center;
+      margin: 20px auto;
+      min-height: 100px;
       }
   
    .Red {
-      padding: 10px 40px;
-      margin: 20px;
-      display: block;
+      display: inline-block;
+      width: 32%;
       text-align: center;
+      margin: 20px auto;
+      min-height: 100px;
       }
 
    .Blue {
-      padding: 10px 40px;
-      margin: 20px;
-      display: block;
+      display: inline-block;
+      width: 32%;
       text-align: center;
+      margin: 20px auto;
+      min-height: 100px;
       }
 
    .Ivory {
-      padding: 10px 40px;
-      margin: 20px;
-      display: block;
+      display: inline-block;
+      width: 32%;
       text-align: center;
+      margin: 20px auto;
+      min-height: 100px;
       }
 
-   .Font Container {
-      width: 100%;
-      display: block;
-      }
+   .RobotoMono {
+      display: inline-block;
+      width: 42%;
+   }
 
-   .Text Styles Container {
+   .Poppins {
+      display: inline-block;
+      width: 42%;
+   }
+
+   .Oswald {
+      display: inline-block;
+      width: 42%;
+   }
+
+   .Text-Styles-Container {
       width: 100%;
-      display: block;
       }
   
   /* Typography */
@@ -67,23 +87,23 @@
    font-family: 'Roboto Mono', monospace;
   }
 
-  .RobotoMono .Bold {
+  .RobotoMono-Bold {
    font-weight: bold;
   }
 
-  .RobotoMono .Italic {
+  .RobotoMono-Italic {
    font-style: italic;
   }
 
   .Spalsh {
-   font-family: 'Splash', cursive;
+   font-family: 'Poppins', sans-serif;
   }
 
-  .Spalsh .Bold {
+  .Poppins-Bold {
    font-weight: bold;
   }
 
-  .Spalsh .Italic {
+  .Poppins-Italic {
    font-style: italic;
   }
 
@@ -91,17 +111,36 @@
    font-family: 'Oswald', sans-serif;
   }
 
-  .Oswald .Bold {
+  .Oswald-Bold {
    font-weight: bold;
   }
 
-  .Oswald .Italic {
+  .Oswald-Italic {
    font-style: italic;
   }
 
-  .Font Title {
+  .Font-Title {
    text-decoration: underline;
   }
+
+  .Roboto-Mono-Style {
+   font-weight: 700 bold;
+   font-size: 26px;
+   font-family: 'Roboto Mono', monospace;
+  }
+
+  .Poppins-Style {
+   font-weight: 500;
+   font-size: 18px;
+   font-family: 'Poppins', sans-serif;
+  }
+
+  .Oswald-Style {
+   font-weight: 400 regular;
+   font-size: 16px;
+   font-family: 'Oswald', sans-serif;
+  }
+
 
   /* Graphics & Colors */
   
