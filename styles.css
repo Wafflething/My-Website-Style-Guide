@@ -32,8 +32,52 @@ h2 {
    }
   
   
-  /* Typography */
+  /* Typography 
+  font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Splash', cursive;
+*/
+
+  .RobotoMono {
+   font-family: 'Roboto Mono', monospace;
+  }
+
+  .RobotoMono .Bold {
+   font-weight: bold;
+  }
+
+  .RobotoMono .Italic {
+   font-style: italic;
+  }
+
+  .Spalsh {
+   font-family: 'Splash', cursive;
+  }
+
+  .Spalsh .Bold {
+   font-weight: bold;
+  }
+
+  .Spalsh .Italic {
+   font-style: italic;
+  }
+
+  .Oswald {
+   font-family: 'Oswald', sans-serif;
+  }
+
+  .Oswald .Bold {
+   font-weight: bold;
+  }
+
+  .Oswald .Italic {
+   font-style: italic;
+  }
   
+  .Font Title {
+   text-decoration: underline;
+  }
+
   /* Graphics & Colors */
   
   .Navy {
